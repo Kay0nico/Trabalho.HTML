@@ -1,0 +1,121 @@
+/*<style> tag css para estilo*/
+/*CSS/
+    
+
+    .centro{ /*style ou regras gerais pra um texto style ou .nome//
+    text-align: center;
+    }
+
+    .cima{
+    font-size: large;
+    color: black;
+    }
+
+    /*div//.meio{
+    font-size: xx-large;  
+    color: #00a1e3;    
+    }
+
+    .baixo{
+    font-size: small;
+    color:crimson;  
+    }
+      position: relative;
+      display: inline-block;
+      margin: 5px 50px; 
+      width: 300px ;    
+
+    <style>
+    .imagem-responsiva {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #ccc;
+    }
+
+    /* Responsivo em diferentes tamanhos de tela
+    @media (min-width: 768px) {
+        .imagem-responsiva {
+          max-width: 300px;
+        }
+      }
+  
+      @media (min-width: 1024px) {
+        .imagem-responsiva {
+          max-width: 500px;
+        }
+      }
+    </style>    
+
+
+
+
+    */
+    .pesquisar{
+    position: relative;
+    display:flex; /* Define o layout flexível */
+    flex-wrap: nowrap;
+    gap: 150px; /* Adiciona espaçamento horizontal e vertical */
+    margin: 1% 40%;
+    width: 18px;
+    }
+
+    .Ccontainer {
+      position: relative;  
+      display: inline-block;
+      flex-wrap: nowrap; 
+      margin: 10% 0%; 
+      width: 150px;
+      margin-left: 3%;         
+    }
+
+    .imagemPk{
+      position: absolute;
+      top: 110%; /* mostra a imagem abaixo do elemento */
+      left: 0;
+      width: 160px;
+      border: 1px solid #00709c;
+      background-color: #ecefff;
+      border-radius: 1rem;
+      margin-left: -11%;
+    }
+
+    .-container:hover .imagem-hover {
+      display: block;
+    }
+
+    .botao {
+      width: 120px;
+      height: 40px;
+      padding: 0;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 1rem;
+      transition: 0.5s;
+    }
+    .botao:hover {
+      background-color: blue;
+    }
+
+    .finalizar{
+    position: relative;
+    display: flex; /* Define o layout flexível */
+    flex-wrap: nowrap;
+    gap: 150px; /* Adiciona espaçamento horizontal e vertical */
+    margin: 1% 46.5%;
+    width: 100px;
+    }
+
+    .bot2 {
+   
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 1rem;
+      transition: 0.5s;
+    }
+    .bot2:hover {
+      background-color: blue;}
